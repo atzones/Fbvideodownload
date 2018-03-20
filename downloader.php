@@ -27,9 +27,9 @@ else{
           </div>
           <div class="col-md-8 px-3">
             <div class="card-block px-3">
-              <h4 class="card-title">'.$data['owner'].' - '.$data['title'].'</h4>
-              <a href="'.$data['sd_link'].'" target="_blank" class="btn btn-outline-primary btn-sm">Download Video in Normal Quality</a>
-		    <a href="'.$data['hd_link'].'" target="_blank" class="btn btn-outline-primary btn-sm">Download Video in HD Quality</a>
+              <h4 class="card-title">'.$data['title'].'</h4>
+              <a href="'.$data['sd_link'].'" target="_blank" class="btn btn-outline-primary btn-sm">Download</a>
+		    <a href="'.$data['hd_link'].'" target="_blank" class="btn btn-outline-primary btn-sm">Download</a>
             </div>
           </div>
 
