@@ -29,7 +29,7 @@ else{
             <div class="card-block px-3">
               <h4 class="card-title">'.$data['title'].'</h4>
               <a href="'.$data['sd_link'].'" target="_blank" class="btn btn-outline-primary btn-sm">Download</a>
-		    <a href="'.$data['hd_link'].'" target="_blank" class="btn btn-outline-primary btn-sm">Download</a>
+		    <a style="display:none" href="'.$data['hd_link'].'" target="_blank" class="btn btn-outline-primary btn-sm">Download</a>
             </div>
           </div>
 
